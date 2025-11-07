@@ -38,6 +38,8 @@ class MainActivity : AppCompatActivity() {
             cardAdapter.update(newItems)
         }
 
+
+
         recyclerView.adapter = cardAdapter
     }
 
@@ -56,4 +58,6 @@ class MainActivity : AppCompatActivity() {
         super.onConfigurationChanged(newConfig)
         setupLayoutManager()
     }
+
+
 }
